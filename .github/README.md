@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-iot-managed-integrations`](https://www.npmjs.com/package/@aws-sdk/client-iot-managed-integrations/v/3.1132.0).
+[`@aws-sdk/client-iot-managed-integrations`](https://www.npmjs.com/package/@aws-sdk/client-iot-managed-integrations/v/3.1133.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-iot-managed-integrations - [https://cloud-sdk-builds.github.io/?sdk=client-iot-managed-integrations](https://cloud-sdk-builds.github.io/?sdk=client-iot-managed-integrations)
-- @aws-sdk/client-iot-managed-integrations v3.1132.0 - [https://cloud-sdk-builds.github.io/?sdk=client-iot-managed-integrations&version=3.1132.0](https://cloud-sdk-builds.github.io/?sdk=client-iot-managed-integrations&version=3.1132.0)
+- @aws-sdk/client-iot-managed-integrations v3.1133.0 - [https://cloud-sdk-builds.github.io/?sdk=client-iot-managed-integrations&version=3.1133.0](https://cloud-sdk-builds.github.io/?sdk=client-iot-managed-integrations&version=3.1133.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-managed-integrations@3.1132.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-managed-integrations@3.1133.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-vAHD0pkshcrO5Nk17k1/Eqwr28SEbY7BsG6PXCG4QMc+HD7t05a+txVkHROyYIuO
+sha384-PTTs21t0c/ytnpyuTwU2ogXUcdM+PTQMhYMlcY9zESi46bntta7wquE4nD7YiwvH
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-iot-managed-integrations": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-managed-integrations@3.1132.0/index.min.mjs"
+            "@aws-sdk/client-iot-managed-integrations": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-managed-integrations@3.1133.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-managed-integrations@3.1132.0/index.min.mjs": "sha384-vAHD0pkshcrO5Nk17k1/Eqwr28SEbY7BsG6PXCG4QMc+HD7t05a+txVkHROyYIuO"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-managed-integrations@3.1133.0/index.min.mjs": "sha384-PTTs21t0c/ytnpyuTwU2ogXUcdM+PTQMhYMlcY9zESi46bntta7wquE4nD7YiwvH"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-iot-managed-integrations": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-managed-integrations@3.1132.0/index.min.mjs"
+                        "@aws-sdk/client-iot-managed-integrations": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-managed-integrations@3.1133.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-managed-integrations@3.1132.0/index.min.mjs": "sha384-vAHD0pkshcrO5Nk17k1/Eqwr28SEbY7BsG6PXCG4QMc+HD7t05a+txVkHROyYIuO"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-managed-integrations@3.1133.0/index.min.mjs": "sha384-PTTs21t0c/ytnpyuTwU2ogXUcdM+PTQMhYMlcY9zESi46bntta7wquE4nD7YiwvH"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1132.0`)
+* Always pin to a specific version (`@3.1133.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-iot-managed-integrations/blob/refs/tags/3.1132.0/LICENSE
+https://github.com/cloud-sdk-builds/client-iot-managed-integrations/blob/refs/tags/3.1133.0/LICENSE
 ```
 
 ---
